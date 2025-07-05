@@ -204,9 +204,8 @@ int main() {
     cout << "Welcome to Hangman!\n";
     
     HangmanGame game;
-    
-    
+     //optional: load words from file
+   // game.loadWordsFromFile("words.txt");
     game.run();
-    
     return 0;
 } 
