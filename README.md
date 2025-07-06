@@ -9,18 +9,9 @@ A simple, terminal-based hangmane game in c++.
 # Install MinGW-w64 if not already installed
 # Download from: https://www.mingw-w64.org/
 cd hangman-cpp
-g++ -std=c++11 -Wall -Wextra -o hangman.exe hangman.cpp
+g++ -o hangman.exe hangman.cpp
 ./hangman.exe
 ```
-
-## How to Play
-
-1. Start the game by running the compiled executable
-2. Enter single letters (A-Z, case insensitive)
-3. Watch the hangman drawing and word reveal progress
-4. Complete the word or run out of attempts
-5. Choose to start a new game
-
 ## Customization
 
 ### Using Custom Word List
@@ -32,9 +23,9 @@ game.loadWordsFromFile("words.txt");
 ### Creating Word List
 Create a text file with one word per line:
 ```
-WORD1
-WORD2
-WORD3
+LALALA
+HAHAHA
+BABABA
 ```
 
 ### Modifying Game Settings
